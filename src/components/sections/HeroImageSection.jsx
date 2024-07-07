@@ -1,13 +1,16 @@
 import HeroImage from '../../images/hero-image.png';
 import VectorImage from '../../images/special-elements/hero-vector.png';
+import BgVectorImage from '../../images/special-elements/bg-vector.svg';
+import BgSecondVectorImage from '../../images/special-elements/bg-vector-2.svg';
+import BgThirdVectorImage from '../../images/special-elements/bg-vector-3.svg';
 
 export const HeroImageSection = () => {
 	return (
-		<section className='min-h-screen flex justify-center items-center md:pt-[120px] pt-[80px] w-full'>
+		<section className='relative min-h-screen flex justify-center items-center md:pt-[120px] pt-[80px] w-full'>
 			<div className='flex justify-center lg:justify-between items-center flex-col lg:flex-row'>
 				<div className='pt-10 lg:pt-0 lg:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] 2xl:ml-10 xxxl:ml-20'>
 					<div className='relative w-full h-full'>
-						<img src={HeroImage} alt='Obrazek przedstawiający preparat leczniczy Arthrohard' className='' />
+						<img src={HeroImage} alt='Obrazek przedstawiający preparat leczniczy Arthrohard' />
 						<img
 							src={VectorImage}
 							alt='Grafika wektorowa upiększająca obrazek preparatu'
@@ -38,6 +41,21 @@ export const HeroImageSection = () => {
 					</button>
 				</div>
 			</div>
+			<img
+				src={BgVectorImage}
+				alt='Grafika wektorowa upiększająca sekcję'
+				className='first-bg-vector'
+			/>
+			<img
+				src={BgSecondVectorImage}
+				alt='Grafika wektorowa upiększająca sekcję'
+				className='second-bg-vector 2xl:block hidden'
+			/>
+			<img
+				src={BgThirdVectorImage}
+				alt='Grafika wektorowa upiększająca sekcję'
+				className='third-bg-vector 2xl:block hidden'
+			/>
 		</section>
 	);
 };

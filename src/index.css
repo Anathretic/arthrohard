@@ -12,6 +12,7 @@
 
 body {
 	background-color: #f6f6f6;
+	overflow-x: hidden;
 }
 
 .first-hero-vector {
@@ -28,5 +29,98 @@ body {
 	height: 35%;
 	top: 60%;
 	left: 29%;
+	z-index: -10;
+}
+
+.first-bg-vector {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -10;
+}
+
+.second-bg-vector {
+	position: absolute;
+	left: 6%;
+	bottom: -55%;
+	transform: rotate(15deg);
+	z-index: -10;
+}
+
+.third-bg-vector {
+	position: absolute;
+	right: 0;
+	bottom: -45%;
+	z-index: -10;
+}
+
+.title-gradient {
+	background: linear-gradient(90.01deg, #111111 -8.85%, #b1b1b1 58.84%, #696969 91.39%, #b1b1b1 116.12%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.special-first-number-box-shadow,
+.special-second-number-box-shadow {
+	text-align: center;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.special-first-number-box-shadow {
+	padding: 11px 19px;
+}
+
+.special-second-number-box-shadow {
+	padding: 12px 19px;
+}
+
+.first-image-vector {
+	position: absolute;
+	top: 30%;
+	left: -15%;
+	transform: rotate(-12deg);
+	z-index: -10;
+}
+
+.second-image-vector {
+	position: absolute;
+	top: 10%;
+	right: -7%;
+	transform: rotate(25deg);
+	z-index: -10;
+}
+
+.third-image-vector {
+	position: absolute;
+	bottom: 10%;
+	left: -16%;
+	transform: rotate(210deg);
+	z-index: -10;
+}
+
+.fourth-image-vector {
+	position: absolute;
+	bottom: 10%;
+	right: -6%;
+	transform: rotate(180deg);
+	z-index: -10;
+}
+
+.fifth-image-vector {
+	position: absolute;
+	top: 22%;
+	left: -13%;
+	transform: rotate(-12deg);
+	z-index: -10;
+}
+
+.sixth-image-vector {
+	position: absolute;
+	bottom: 10%;
+	right: 0;
+	transform: rotate(180deg);
 	z-index: -10;
 }
