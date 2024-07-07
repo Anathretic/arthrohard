@@ -6,6 +6,7 @@ export default {
 			screens: {
 				rrsm: '315px',
 				rsm: '350px',
+				nsm: '500px',
 				mf: '990px',
 				xxxl: '1726px',
 			},
@@ -23,6 +24,9 @@ export default {
 			},
 			animation: {
 				'slide-in': 'slide-in 0.5s ease-out',
+			},
+			colors: {
+				'special-black': '#111111',
 			},
 		},
 	},
