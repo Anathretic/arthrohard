@@ -11,7 +11,7 @@ export const WhatSetsUsApart = () => {
 		<Element name='co-nas-wyroznia'>
 			<section className='w-full pb-10'>
 				<div className='w-full min-h-screen flex justify-center items-center flex-col'>
-					<h3 className='h-full pb-2 max-2xl:pt-12 lg:pb-4 text-center 2xl:text-4xl md:text-3xl nsm:text-2xl text-2xl font-semibold title-gradient'>
+					<h3 className='h-full pb-2 max-2xl:pt-12 pt-20 lg:pb-4 text-center 2xl:text-4xl md:text-3xl nsm:text-2xl text-2xl font-semibold title-gradient'>
 						Co wyróżnia nasz preparat
 					</h3>
 					<div className='h-[1px] border border-special-black w-[50px] lg:w-[80px] 2xl:w-[120px]' />

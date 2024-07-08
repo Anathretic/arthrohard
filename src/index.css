@@ -124,3 +124,55 @@ body {
 	transform: rotate(180deg);
 	z-index: -10;
 }
+
+.bottle-image,
+.dog-image {
+	position: relative;
+	z-index: 1;
+}
+
+.first-composition-vector {
+	position: absolute;
+	top: 42%;
+	left: 5%;
+	transform: rotate(15deg);
+}
+
+.second-composition-vector {
+	position: absolute;
+	top: 28%;
+	right: 0;
+	transform: rotate(20deg);
+}
+
+.third-composition-vector {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+}
+
+.fourth-composition-vector {
+	position: absolute;
+	top: 20%;
+	right: 4%;
+	transform: rotate(40deg);
+}
+@media screen and (min-width: 1024px) {
+	.highlight-on-hover h5 {
+		position: relative;
+	}
+
+	.highlight-on-hover h5::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 10%;
+		width: 100%;
+		border: 1px solid transparent;
+		transition: border-color 0.3s;
+	}
+
+	.highlight-on-hover:hover h5::after {
+		border-color: #111111;
+	}
+}
