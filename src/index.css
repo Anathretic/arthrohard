@@ -15,50 +15,59 @@ body {
 	overflow-x: hidden;
 }
 
-.first-hero-vector {
-	position: absolute;
-	top: 40%;
-	right: 29%;
-	height: 40%;
-	transform: rotate(12deg);
-	z-index: -10;
-}
-
-.second-hero-vector {
-	position: absolute;
-	height: 35%;
-	top: 60%;
-	left: 29%;
-	z-index: -10;
-}
-
-.first-bg-vector {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: -10;
-}
-
-.second-bg-vector {
-	position: absolute;
-	left: 6%;
-	bottom: -55%;
-	transform: rotate(15deg);
-	z-index: -10;
-}
-
-.third-bg-vector {
-	position: absolute;
-	right: 0;
-	bottom: -45%;
-	z-index: -10;
-}
-
-.title-gradient {
+.section-title-gradient {
 	background: linear-gradient(90.01deg, #111111 -8.85%, #b1b1b1 58.84%, #696969 91.39%, #b1b1b1 116.12%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+/* Welcome Section */
+
+.subtitle-gradient {
+	background: linear-gradient(90.01deg, #111111 -8.85%, #b1b1b1 116.12%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.first-bottles-vector-image,
+.second-bottles-vector-image,
+.first-bg-vector-image,
+.second-bg-vector-image,
+.third-bg-vector-image {
+	position: absolute;
+	z-index: -10;
+}
+
+.first-bottles-vector-image {
+	top: 40%;
+	right: 29%;
+	height: 40%;
+	transform: rotate(12deg);
+}
+
+.second-bottles-vector-image {
+	height: 35%;
+	top: 60%;
+	left: 29%;
+}
+
+.first-bg-vector-image {
+	right: 0;
+	bottom: 0;
+}
+
+.second-bg-vector-image {
+	left: 6%;
+	bottom: -55%;
+	transform: rotate(15deg);
+}
+
+.third-bg-vector-image {
+	right: 0;
+	bottom: -45%;
+}
+
+/* What Sets Us Apart Section */
 
 .special-first-number-box-shadow,
 .special-second-number-box-shadow {
@@ -77,53 +86,53 @@ body {
 	padding: 12px 19px;
 }
 
-.first-image-vector {
+.first-container-vector-image-1,
+.first-container-vector-image-2,
+.second-container-vector-image-1,
+.second-container-vector-image-2,
+.third-container-vector-image-1,
+.third-container-vector-image-2 {
 	position: absolute;
+	z-index: -10;
+}
+
+.first-container-vector-image-1 {
 	top: 30%;
 	left: -15%;
 	transform: rotate(-12deg);
-	z-index: -10;
 }
 
-.second-image-vector {
-	position: absolute;
+.first-container-vector-image-2 {
 	top: 10%;
 	right: -7%;
 	transform: rotate(25deg);
-	z-index: -10;
 }
 
-.third-image-vector {
-	position: absolute;
+.second-container-vector-image-1 {
 	bottom: 10%;
 	left: -16%;
 	transform: rotate(210deg);
-	z-index: -10;
 }
 
-.fourth-image-vector {
-	position: absolute;
+.second-container-vector-image-2 {
 	bottom: 10%;
 	right: -6%;
 	transform: rotate(180deg);
-	z-index: -10;
 }
 
-.fifth-image-vector {
-	position: absolute;
+.third-container-vector-image-1 {
 	top: 22%;
 	left: -13%;
 	transform: rotate(-12deg);
-	z-index: -10;
 }
 
-.sixth-image-vector {
-	position: absolute;
+.third-container-vector-image-2 {
 	bottom: 10%;
 	right: 0;
 	transform: rotate(180deg);
-	z-index: -10;
 }
+
+/* Composition Section */
 
 .bottle-image,
 .dog-image {
@@ -131,32 +140,36 @@ body {
 	z-index: 1;
 }
 
-.first-composition-vector {
+.first-bottle-vector-image,
+.second-bottle-vector-image,
+.first-dog-vector-image,
+.second-dog-vector-image {
 	position: absolute;
+}
+
+.first-bottle-vector-image {
 	top: 42%;
 	left: 5%;
 	transform: rotate(15deg);
 }
 
-.second-composition-vector {
-	position: absolute;
+.second-bottle-vector-image {
 	top: 28%;
 	right: 0;
 	transform: rotate(20deg);
 }
 
-.third-composition-vector {
-	position: absolute;
+.first-dog-vector-image {
 	top: 30%;
 	left: 15%;
 }
 
-.fourth-composition-vector {
-	position: absolute;
+.second-dog-vector-image {
 	top: 20%;
 	right: 4%;
 	transform: rotate(40deg);
 }
+
 @media screen and (min-width: 1024px) {
 	.highlight-on-hover h5 {
 		position: relative;
@@ -168,7 +181,7 @@ body {
 		left: 0;
 		bottom: 10%;
 		width: 100%;
-		border: 1px solid transparent;
+		border-bottom: 1px solid transparent;
 		transition: border-color 0.3s;
 	}
 
