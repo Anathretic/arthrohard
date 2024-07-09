@@ -1,15 +1,15 @@
-import { Composition } from './components/sections/Composition';
-import { HeroImageSection } from './components/sections/HeroImageSection';
-import { Navbar } from './components/sections/Navbar';
-import { Products } from './components/sections/Products';
-import { WhatSetsUsApart } from './components/sections/WhatSetsUsApart';
+import { Composition } from './components/sections/CompositionSection/Composition';
+import { Welcome } from './components/sections/WelcomeSection/Welcome';
+import { Navbar } from './components/sections/Navbar/Navbar';
+import { Products } from './components/sections/ProductsSection/Products';
+import { WhatSetsUsApart } from './components/sections/WhatSetsUsApartSection/WhatSetsUsApart';
 
 const App = () => {
 	return (
 		<div className='min-h-screen'>
 			<Navbar />
 			<main>
-				<HeroImageSection />
+				<Welcome />
 				<WhatSetsUsApart />
 				<Composition />
 				<Products />
