@@ -189,3 +189,18 @@ body {
 		border-color: #111111;
 	}
 }
+
+/* Products */
+
+.products-select {
+	border: none;
+	border-right: 10px solid transparent;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+	.products-select {
+		text-align-last: right;
+		-moz-text-align-last: right;
+	}
+}
