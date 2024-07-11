@@ -17,7 +17,9 @@ export const Composition = () => {
 							Skład w 5 ml
 						</h3>
 						<div className='h-[1px] border border-special-black w-[50px] lg:w-[80px] 2xl:w-[120px]' />
-						<h4 className='pt-28 font-semibold text-xl lg:text-2xl'>Co dają poszczególne składniki:</h4>
+						<h4 className='max-2xl:pt-16 max-nsm:pt-20 pt-28 font-semibold text-xl lg:text-2xl'>
+							Co dają poszczególne składniki:
+						</h4>
 						<div className='w-full flex justify-center flex-col 2xl:flex-row lg:justify-between items-center pt-16 2xl:pt-28 xxxl:px-48 text-center'>
 							<div>
 								<div className='flex justify-center items-center flex-col max-w-[400px] max-lg:px-4 pb-12 highlight-on-hover'>
@@ -120,7 +122,7 @@ export const Composition = () => {
 									<img
 										src={DogVectorImage}
 										alt='Grafika upiększająca obrazek psa'
-										className='first-dog-vector-image lg:block hidden'
+										className='first-dog-vector-image block max-2xl:w-1/3'
 									/>
 									<img
 										src={DogVectorImage}

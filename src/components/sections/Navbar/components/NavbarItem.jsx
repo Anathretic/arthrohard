@@ -7,10 +7,10 @@ export const NavbarItem = ({ title, section, classProps, onClick, ...linkProps }
 	});
 
 	return (
-		<li className={`mx-2 mf:mx-4 cursor-pointer transition duration-300 ${classProps} uppercase z-10 text-center`}>
+		<li className={`mx-2 mf:mx-4 cursor-pointer ${classProps} uppercase z-10 text-center`}>
 			<Link
 				to={section}
-				className={`${isMobile ? '' : 'p-2'} transition duration-300`}
+				className={`${isMobile ? '' : 'p-2 transition duration-300'}`}
 				onClick={onClick}
 				{...linkProps}
 				smooth
