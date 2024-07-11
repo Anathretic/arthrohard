@@ -20,7 +20,7 @@ export const Composition = () => {
 						<h4 className='max-2xl:pt-16 max-nsm:pt-20 pt-28 font-semibold text-xl lg:text-2xl'>
 							Co dają poszczególne składniki:
 						</h4>
-						<div className='w-full flex justify-center flex-col 2xl:flex-row lg:justify-between items-center pt-16 2xl:pt-28 xxxl:px-48 text-center'>
+						<div className='w-full flex justify-center flex-col lg:flex-row lg:justify-between items-center pt-16 lg:pt-28 lg:px-20 xl:px-32 xxxl:px-48 text-center'>
 							<div>
 								<div className='flex justify-center items-center flex-col max-w-[400px] max-lg:px-4 pb-12 highlight-on-hover'>
 									<img src={EllipseImage} alt='Grafika poglądowa składnika' />
@@ -37,7 +37,7 @@ export const Composition = () => {
 									<img src={EllipseImage} alt='Grafika poglądowa składnika' />
 									<h5 className='font-semibold text-xl lg:text-2xl py-5'>Siarczan chondroityny</h5>
 									<span className='pb-4'>300 mg</span>
-									<p className='px-2'>
+									<p className='px-2 lg:px-8 2xl:px-2'>
 										Chondroityna, podobnie jak glukozamina, jest składnikiem chrząstki. Chondroityna pomaga zwalczać
 										enzymy, które niszczą chrząstkę, a także pomaga chrząstce zatrzymać wodę, co jest ważne dla jej
 										sprężystości i absorpcji wstrząsów.
@@ -79,16 +79,16 @@ export const Composition = () => {
 								</button>
 							</div>
 							<div>
-								<div className='flex justify-center items-center flex-col max-w-[400px] max-lg:px-4 pb-12 2xl:pb-28 highlight-on-hover'>
-									<img src={EllipseImage} alt='Grafika poglądowa składnika' />
-									<h5 className='font-semibold text-xl lg:text-2xl py-5'>Czarci pazur</h5>
+								<div className='flex justify-center items-center flex-col max-w-[400px] max-lg:px-4 pb-12 lg:pb-24 2xl:pb-28 highlight-on-hover'>
+									<img src={EllipseImage} alt='Grafika poglądowa składnika'/>
+									<h5 className='font-semibold text-xl lg:text-2xl py-3 2xl:py-5'>Czarci pazur</h5>
 									<span className='pb-4'>250 mg</span>
-									<p className='px-2'>
+									<p className='px-2 lg:py-1 2xl:py-0'>
 										Czarci pazur jest rośliną, która ma właściwości przeciwzapalne i przeciwbólowe. Może to pomóc
 										zwierzętom, które doświadczają bólu i stanu zapalnego związanego z problemami ze stawami.
 									</p>
 								</div>
-								<div className='flex justify-center items-center flex-col max-w-[400px] max-lg:px-4 pb-12 highlight-on-hover'>
+								<div className='flex justify-center items-center flex-col max-w-[400px] max-lg:px-4 lg:pt-6 pb-12 highlight-on-hover'>
 									<img src={EllipseImage} alt='Grafika poglądowa składnika' />
 									<h5 className='font-semibold text-xl lg:text-2xl py-5'>Witamina C</h5>
 									<span className='pb-4'>50 mg</span>
